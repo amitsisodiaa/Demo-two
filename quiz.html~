@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> quiz type</title>
+</head>
+<body>
+</body>
+<p>what is the value of 3+4</p>
+ <input type="text" id="textbox" placeholder="put your answer">
+ <button type="button" onclick="callmethod()">Click Me!</button> 
+
+<script>
+function callmethod(){
+var result = document.getElementById("textbox").value;
+if(result<7)
+{
+alert("Must input numbers");
+}
+
+}
+</script>
+</html>
+
