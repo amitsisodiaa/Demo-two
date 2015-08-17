@@ -1,0 +1,109 @@
+<html>
+ <head>
+   <title>amit resume</title>
+  
+<script>
+  function change()
+    {
+   document.body.style.backgroundColor = "red"; 
+    } 
+
+    function remove()
+     {
+        document.getElementById("edutb").remove();
+      }
+          function toggleTable()
+          {
+           var elem=document.getElementById("tblCustomers");
+           var hide = elem.style.display =="none";
+         if (hide) {
+         elem.style.display="table";
+          } 
+         else {
+         elem.style.display="none";
+       }
+      }
+</script>
+
+</head>
+   <body>
+<div id="wrapper">
+		<div class="heading">
+		<h1>Resume></h1>
+		</div>
+         <div>Name:Amit kumar<br>
+        Email:sisodiaaamit@gmail.com<br>
+	Contact no.:9639238127</div>	
+	<div class="main">
+		toggleTable()
+                  <div><h3>career objective<h3></div>
+		    <p>I assure you that if given me a chance to serve in your esteemed organization<br> I will prove myself worthy in the 				name ofthe organization and I will leave no stone unturned to <br>your entire satisfaction with my creative design 					skills. 
+			</p>
+                      <div><h3>Technical profile</h3>
+					<ul><li> Knowledge of  creating Static web template using HTML and CSS</li>
+						<li>Knowledge of Object Oriented programmingconcepts.</li>
+                                                <li>Experience in writing Sql queries, Stored Procedures and function (Mssql 		  								server,mysql)</li></ul></div>
+							<div id="edutb"><h3>Educational Detail</h3>
+<table id="tblCustomers" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+        <tr>
+            <th style="width: 90px">name of qualifaction</th>
+            <th style="width: 120px">board</th>
+            <th style="width: 90px">year</th>
+            <th style="width: 90px">percantge</th>
+        </tr>
+        <tr>
+            <td>mca</td>
+            <td>mtu</td>
+            <td>2013</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>Bsc</td>
+            <td>gkv</td>
+            <td>2010</td>
+            <td>69</td>
+        </tr>
+        <tr>
+            <td>12th</td>
+            <td>up board</td>
+            <td>2007</td>
+            <td>74</td>
+        </tr>
+        <tr>
+            <td>10th</td>
+            <td>up board</td>
+            <td>2005</td>
+            <td>70</td>
+        </tr>
+    </tbody>
+</table></div>				
+						<div>
+							<h3>Skill</h3>
+<table>	
+<tr><td>Programming Languages-  </td><td> C, C# ,Html, CSS,</td></tr>
+<tr><td>O/S-  </td><td> Windows-xp/2007/2008</td></tr>
+<tr><td>DBMS Package -</td><td> MSSQL Server-2008, MySql </td></tr>
+<tr><td>Tools-</td><td> MySQL Workbench 6.2 CE, Notepad++, Visual studio 2010</td></tr></table>
+</div>
+<div><h3>Strength</h3>
+ <ul><li>Quick learner, Confident person.</li>
+ <li>Team work, punctuality.</li>  
+<li>Face new Challenges.</li>   
+<li>Work under pressure and Long hours.</li></ul></div>
+ <div><h3>Hobbies</h3>
+<ul>	<li>Surfing on net</li>
+<li>Playing cricket</li>
+<li>Listening music.</li>
+</ul></div>
+</div>
+<input type="button" id="btnhide" value="hide edu detail" />
+<input type="button" id="Remove" value="toggle edu detail" onclick="toggleTable()" />
+<input type="button" id="btnDelete" value="click me"onclick="change()"  />
+</div>
+
+  </body>
+</html>.
+
+
+

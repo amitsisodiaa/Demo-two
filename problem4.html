@@ -1,0 +1,33 @@
+<html>
+<head>
+
+<script>
+var student=["amit","rahul","uday","pawan","ashish","ashwani"]
+
+for(var i=0;i<student.length;i++)
+{
+
+document.write(student[i] + "<br >");
+}
+
+function kk(){
+		result = document.getElementById('txt1').value;
+         	for(var j=0;j<student.length;j++)
+		{
+		if(result==student[j])
+		{
+		alert(result);
+		}
+	}}
+		
+	
+           
+
+    
+</script>
+<p id="demo"></p>
+<input type="text" name="enter" class="enter" value="" id="txt1"/>
+ <input type="button" value="click" OnClick="kk()"/>
+</head>
+</body>
+</html>
